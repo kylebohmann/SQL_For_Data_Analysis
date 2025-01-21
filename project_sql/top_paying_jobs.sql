@@ -9,12 +9,13 @@ Question: What are the top-paying data analyst jobs?
 SELECT 
     job_id,
     name AS company_name,
+    job_title,
     job_title_short,
     job_work_from_home,
     ROUND(salary_year_avg, 0) AS salary_year_avg
 FROM 
     job_postings_fact
-INNER JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
 WHERE 
     job_title_short = 'Data Analyst' AND 
     job_work_from_home = TRUE AND
