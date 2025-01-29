@@ -208,6 +208,9 @@ SELECT
     average_skill_salary
 FROM skills_demand
 INNER JOIN skills_pay ON skills_demand.skill_id = skills_pay.skill_id
+WHERE 
+    skills_demand > 50 AND
+    average_skill_salary > 90000
 ORDER BY
     skills_demand DESC,
     average_skill_salary DESC
