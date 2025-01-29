@@ -20,8 +20,11 @@ We want to answer a handful of questions about the job market for data analytics
 To do my analysis of the data analyst job market I utilized the following analytics tools
 
 **SQL:** The primary tool used to run my analysis. Allowed me to query across multiple datasets.
+
 **PostgresSQL:** Preffered RDBMS used to run queries
+
 **Visual Studio Code:** Preffered code editor to make edits to SQL scripts and view results
+
 **Git & GitHub:**: Tool used to store and and version SQL query result and analysis. Also where I am posting final analysis documentation
 
 # Analysis
