@@ -31,7 +31,31 @@ To do my dive into the data analyst job market I utilized the following analytic
 My analysis was focused primarily on answering 5 questions about the data analyst job market. Listed below are the questions we want answered, How we wrote our SQL to answere those questions, and takeaways from the results. For some of our results we enlisted the help of ChatGPT to analyze the results to better identify trends in the data. 
 
 **1. What are the top-paying data analyst jobs?**
+```sql
+SELECT	
+	job_id,
+	job_title,
+	job_location,
+	job_schedule_type,
+	salary_year_avg,
+	job_posted_date,
+    name AS company_name
+FROM
+    job_postings_fact
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+WHERE
+    job_title_short = 'Data Analyst' AND 
+    job_location = 'Anywhere' AND 
+    salary_year_avg IS NOT NULL
+ORDER BY
+    salary_year_avg DESC
+LIMIT 10;```
 
+/*
+Here's the breakdown of the top data analyst jobs in 2023:
+Wide Salary Range: Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
+Diverse Employers: Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
+Job Title Variety: There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 
 
 # Learnings
