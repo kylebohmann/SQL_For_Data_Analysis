@@ -28,6 +28,10 @@ To do my dive into the data analyst job market I utilized the following analytic
 **Git & GitHub:**: Tool used to store and and version SQL query result and analysis. Also where I am posting final analysis documentation
 
 # Analysis
+My analysis was focused primarily on answering 5 questions about the data analyst job market. Listed below are the questions we want answered, How we wrote our SQL to answere those questions, and takeaways from the results. For some of our results we enlisted the help of ChatGPT to analyze the results to better identify trends in the data. 
+
+**1. What are the top-paying data analyst jobs?**
+
 
 
 # Learnings
