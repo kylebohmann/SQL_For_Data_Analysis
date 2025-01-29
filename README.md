@@ -216,6 +216,60 @@ ORDER BY
     average_skill_salary DESC
 ```
 
+Here's a table summarizing the skills, their demand, and the corresponding average salary:  
+
+| Skill ID | Skill        | Demand | Average Salary ($) |
+|----------|-------------|--------|--------------------|
+| 0        | SQL         | 3083   | 96,435.33         |
+| 1        | Python      | 1840   | 101,511.85        |
+| 182      | Tableau     | 1659   | 97,978.08         |
+| 5        | R           | 1073   | 98,707.80         |
+| 183      | Power BI    | 1044   | 92,323.60         |
+| 186      | SAS         | 500    | 93,707.36         |
+| 61       | SQL Server  | 336    | 96,191.42         |
+| 79       | Oracle      | 332    | 100,964.19        |
+| 74       | Azure       | 319    | 105,399.62        |
+| 76       | AWS         | 291    | 106,439.84        |
+| 8        | Go          | 288    | 97,266.97         |
+| 215      | Flow        | 271    | 98,019.82         |
+| 185      | Looker      | 260    | 103,855.35        |
+| 80       | Snowflake   | 241    | 111,577.72        |
+| 92       | Spark       | 187    | 113,001.94        |
+| 22       | VBA         | 185    | 93,844.97         |
+| 189      | SAP         | 183    | 92,446.21         |
+| 9        | JavaScript  | 153    | 91,805.12         |
+| 233      | Jira        | 145    | 107,931.30        |
+| 97       | Hadoop      | 140    | 110,888.27        |
+| 4        | Java        | 135    | 100,213.87        |
+| 197      | SSRS        | 129    | 91,536.86         |
+| 201      | Alteryx     | 124    | 105,579.57        |
+| 2        | NoSQL       | 108    | 108,331.04        |
+| 75       | Databricks  | 102    | 112,880.74        |
+| 194      | SSIS        | 102    | 97,234.75         |
+| 187      | Qlik        | 100    | 100,932.78        |
+| 204      | Visio       | 99     | 101,035.82        |
+| 141      | Express     | 96     | 108,221.35        |
+| 93       | Pandas      | 90     | 110,767.07        |
+| 78       | Redshift    | 90     | 107,968.80        |
+| 15       | MATLAB      | 89     | 99,908.55         |
+| 26       | C           | 89     | 98,714.56         |
+| 77       | BigQuery    | 84     | 105,237.60        |
+| 81       | GCP         | 78     | 113,065.48        |
+| 184      | DAX         | 75     | 99,548.74         |
+| 210      | Git         | 74     | 112,249.64        |
+| 96       | Airflow     | 71     | 116,387.26        |
+| 56       | MySQL       | 71     | 101,381.40        |
+| 14       | C#          | 71     | 97,247.74         |
+| 13       | C++         | 68     | 105,695.51        |
+| 200      | Cognos      | 66     | 90,407.22         |
+| 234      | Confluence  | 62     | 114,153.12        |
+| 16       | T-SQL       | 60     | 95,722.65         |
+| 3        | Scala       | 59     | 115,479.53        |
+| 216      | GitHub      | 59     | 101,498.36        |
+| 169      | Linux       | 58     | 114,883.20        |
+| 94       | NumPy       | 54     | 107,397.56        |
+
+When asking for what skills are most optimal we are looking at skills that are both high in demand and high in salary. From the results we can see that the most commond tools are SQL, Python, Tableau R and Power BI. Once you learn those you may see some additional benefit in salary by learning Spark, Snowflake, Databricks amongst others as they are higher in salary and still somewhat high in demand. 
 
 # Learnings
 
