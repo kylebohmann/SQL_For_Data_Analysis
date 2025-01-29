@@ -118,6 +118,15 @@ ORDER BY
 LIMIT 5
 ```
 
+| Skill     | Count  |
+|-----------|--------|
+| SQL       | 92,628 |
+| Excel     | 67,031 |
+| Python    | 57,326 |
+| Tableau   | 46,554 |
+| Power BI  | 39,468 | 
+
+The results above show us that SQL,Excel,Python,Tableau and Power BI are the most in demand skills for Data Analysts
 
 # Learnings
 
