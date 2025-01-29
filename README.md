@@ -150,7 +150,7 @@ LIMIT 25
 [
 ](https://files.oaiusercontent.com/file-8VW4Uok713YmZHU5amz1UE?se=2025-01-29T19%3A37%3A50Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc6a66776-da0f-4ebb-a677-ef673b947abd&sig=v8Hqxk/M6ZgnBIhPwF/BCgoB79evNqbNYFmDrw4KjDo%3D)![image](https://github.com/user-attachments/assets/f7b4c512-18d9-440b-8f04-4dbfaad11b23)
 
-Some notable trends in the results are:
+Some notable trends in the results are (provided by ChatGPT):
 
 1. AI & Machine Learning Expertise
    Tensorflow,Datarobot,MxNet
