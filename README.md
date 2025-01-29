@@ -17,7 +17,7 @@ We want to answer a handful of questions about the job market for data analytics
 **5. What are the most optimal skills to learn as a Data Analyst?**
 
 # Tools I Used
-To do my analysis of the data analyst job market I utilized the following analytics tools
+To do my dive into the data analyst job market I utilized the following analytics tools
 
 **SQL:** The primary tool used to run my analysis. Allowed me to query across multiple datasets.
 
