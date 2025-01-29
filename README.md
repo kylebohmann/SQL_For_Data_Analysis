@@ -100,7 +100,26 @@ Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand
 [
 ](https://files.oaiusercontent.com/file-VPYhZYX2dPdvTF4pdYZEhf?se=2025-01-29T19%3A10%3A26Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D7de0c5d4-a426-4fe6-ba84-4db8eead5ddf&sig=s5pobrQupVWiRJ4FnxxU8CjTxozzyuzncIuUt2ikSxA%3D)![image](https://github.com/user-attachments/assets/dfea8d3c-a2d4-4975-9bd3-b7c40b1549dc)
 
+3. What are the most in-demand skills for data analysts?
+
+```sql
+SELECT
+    skills,
+    COUNT(job_postings_fact.job_id) skills_count
+FROM job_postings_fact
+INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE 
+    job_title_short = 'Data Analyst'
+GROUP BY 
+    skills
+ORDER BY 
+    skills_count DESC
+LIMIT 5
+```
+
 
 # Learnings
+
 
 # Conclusions
