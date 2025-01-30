@@ -274,6 +274,7 @@ When asking for what skills are most optimal we are looking at skills that are b
 # Learnings
 
 **CTEs and Subquerries**: Use of temporary results sets and combining information allowed for some deeper insights into data analyst job market.
+
 **ChatGPT**: ChatGPT was super useful in summarizing trends in the data and in creating visualizations. For example it was able to identify trends amongst the skills that are top paying and group them into categories. 
 
 # Conclusions
