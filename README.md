@@ -273,5 +273,14 @@ When asking for what skills are most optimal we are looking at skills that are b
 
 # Learnings
 
+**CTEs and Subquerries**: Use of temporary results sets and combining information allowed for some deeper insights into data analyst job market.
+**ChatGPT**: ChatGPT was super useful in summarizing trends in the data and in creating visualizations. For example it was able to identify trends amongst the skills that are top paying and group them into categories. 
 
 # Conclusions
+
+From the questions we asked at the start of this project, here are my takeaways:
+
+1) The top paying data analyst jobs can range anywhere from 184000 to 650000, while the majorits of salaries tend to be between 70000-100000. This indicates that at the top end of analysts there is a high level of compensation associated with data analyst positions.
+
+2) 
+3) 
