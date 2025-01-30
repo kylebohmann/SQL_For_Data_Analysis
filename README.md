@@ -283,5 +283,8 @@ From the questions we asked at the start of this project, here are my takeaways:
 
 1) The top paying data analyst jobs can range anywhere from 184000 to 650000, while the majorits of salaries tend to be between 70000-100000. This indicates that at the top end of analysts there is a high level of compensation associated with data analyst positions.
 
-2) 
-3) 
+2) For the top paying data analyst jobs the skills that come up most often are SQL, Tableau and Python. This indicates that even at the high end of data analyst jobs these foundational skills are still incredibly important
+
+3) The most in demand skills for data analysts in general are SQL, Excel, Python, Tableau and PowerBI. From this we can takeaway that for those who are looking to get into data analytics these skills are going to be the most important as they have the highest number of employers listing them.
+
+4) 
